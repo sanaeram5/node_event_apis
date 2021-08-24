@@ -4,7 +4,6 @@ const userSchema=new moongoose.Schema({
     name:{
         type:String,
         required:true,
-        unique:true
     },
     mail:{
         type:String,
@@ -14,6 +13,9 @@ const userSchema=new moongoose.Schema({
     pass:{
         type:String,
         required:true
+    },
+    token:{
+        type:String
     }
 })
 

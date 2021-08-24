@@ -1,6 +1,6 @@
 const moongoose=require("mongoose");
 
-moongoose.connect('mongodb+srv://eramsana8:eramsana@123@cluster0.jlggs.mongodb.net/event?retryWrites=true&w=majority',{
+moongoose.connect('mongodb+srv://jaanbaaz23:jaanbaaz23@cluster0.85imn.mongodb.net/event?retryWrites=true&w=majority',{
     useNewUrlParser:true,
     useUnifiedTopology:true,
     useCreateIndex:true
